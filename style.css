@@ -8,11 +8,11 @@ html,
 body {
      height: 100%;
      width: 100%;
-    background-image: url(https://plus.unsplash.com/premium_photo-1732657254967-77466fdf86a1?q=80&w=1410&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-color: black;
 }
 nav{
     display: flex;
-    background-color: black;
+    background-color: rgb(46, 68, 165);
     justify-content: space-around;
     align-items: center;
     color: white;
@@ -38,6 +38,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(https://plus.unsplash.com/premium_photo-1732657254967-77466fdf86a1?q=80&w=1410&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
 }
 main .hero{
     display: flex;
@@ -89,12 +90,13 @@ main .hero .card5{
     background-image: url(https://plus.unsplash.com/premium_photo-1716866637625-381421238aca?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDIwfHx8ZW58MHx8fHx8);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 .about-page{
     height: 100%;
     width: 100%;
 
-    background-color: blue;
+    /* background-color: blue; */
 }
 .heading{
     background-color: red;
@@ -102,4 +104,43 @@ main .hero .card5{
     margin-top: 50px;
     font-size: 40px;
     color: white;
+}
+.main-content{
+    display: flex;
+    /* background-color: yellow; */
+    height: 100%;
+    width: 100%;
+    /* gap: 20px; */
+
+}
+.content{
+    background-color: green;
+    height: 100%;
+    width: 50%;
+
+}
+.content.one{
+    background-color: black;
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.content.two{
+    background-color: purple;
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    color: white;
+    background-image: url(./map.png);
+    background-size: cover;
+    /* background-position: center; */
 }
